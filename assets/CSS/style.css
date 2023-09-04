@@ -1,0 +1,27 @@
+.navBar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 5px;
+  margin: 10px;
+  font-size: 2em;
+  border: 4px;
+  color: white;
+  text-align: end;
+}
+li {
+}
+nav {
+  background-color: black;
+}
+header {
+  background-color: darkgrey;
+}
+h2 {
+  text-align: center;
+}
+p {
+  font-size: 16pt;
+  text-align: center;
+}
