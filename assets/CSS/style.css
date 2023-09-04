@@ -3,25 +3,50 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   padding: 5px;
   margin: 10px;
   font-size: 2em;
-  border: 4px;
+
   color: white;
   text-align: end;
 }
-li {
+li:hover {
+  background-color: lightblue;
+  color: black;
 }
-nav {
-  background-color: black;
+
+nav li {
+  /* background-color: black; */
+  display: inline;
+  margin: 20px;
+}
+a {
+  color: #aaa;
+}
+a:hover {
+  color: purple;
+  border-radius: 30px;
+  border-color: limegreen;
 }
 header {
-  background-color: darkgrey;
 }
 h2 {
   text-align: center;
+  color: white;
+  text-shadow: 2px 2px grey;
 }
 p {
   font-size: 16pt;
   text-align: center;
+  color: white;
+  opacity: 1;
+}
+.mainEl {
+  border: 10px solid white;
+  padding: 20px;
+}
+body {
+  background-image: url(../images/galaxy1.png);
+  background-size: cover;
 }
