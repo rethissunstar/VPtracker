@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  width: 100vw;
+  background-color: rgb(71, 71, 140);
+  color: white;
+  font-size: 40pt;
+}
+.leftWing {
+  background-image: url(../images/admechwingLeft.png);
+  background-repeat: no-repeat;
+  background-position: 100%;
+  width: 33vw;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+
+  background-size: 700px 200px;
+  background-position: center;
+}
+.center {
+  background-image: url(../images/admech.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rightWing {
+  width: 33vw;
+  height: 400px;
+  background-image: url(../images/admechwingRight.png);
+  background-repeat: no-repeat;
+  background-size: 700px 200px;
+  background-position: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
